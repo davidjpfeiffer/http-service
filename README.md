@@ -7,7 +7,7 @@ To simplify the service, default headers are specified in the service and automa
 
 ### Usage
 
-If the request is successful, this code would print a list of people. If the request was not successful, this code would print an error message.
+If the request is successful, this code below would print a list of people. If it was not successful, an error message would be printed to the console.
 
 ```javascript
 app.httpService.get('api/v2/people')
