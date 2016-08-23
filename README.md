@@ -1,8 +1,8 @@
 # Javascript HTTP Service
 
-A simple JavaScript service that exposes an api for making http requests. The requests are made using the new JavaScript fetch api. This allows developers to easily make requsts to a web api and has built in support for GET, PUT, POST, and DELETE requests.
+A simple JavaScript service for making asynchronous http requests to a web server. The service has built in support for GET, PUT, POST, and DELETE requests. Each of these request types are exposed as methods on the service, all of which return a promise.
 
-To simplify the requests, default headers are specified in the service and are automatically added. If you would like to specify unique headers for each request, you can modify the service to take in a headers object as an extra parameter.
+To simplify the requests, default headers are specified in the service and are automatically added to each request. If you would like to specify unique headers for each request, you can modify the service to take in a headers object as an extra parameter.
 
 ### Usage
 
